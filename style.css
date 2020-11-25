@@ -1,0 +1,305 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:rgba(241, 213, 214, 0.959);
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color: rgb(224, 153, 153);
+    position: fixed;
+    display: block;
+    width: 100%;
+    z-index: 999;
+  }
+  .education {
+    
+    background-color: rgb(218, 169, 169);
+  }
+
+  .topnav a {
+    
+        font-family: 'Sorts_Mill_Goudy';
+   
+    float: left;
+    color: #000000;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+  .bg-text {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: rgb(243, 224, 224);
+    font-weight: bold;
+    font-size: 80px;
+    border: 10px solid #BC8F8F;
+    position: absolute;
+    top: 47%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 550px;
+    padding: 20px;
+    text-align: center;
+    
+  }
+  .container{
+    width: 100%;
+    background-color: rgba(241, 213, 214, 0.959);
+
+
+    
+  }
+  .boxby{
+    background-image:linear-gradient(rgba(236, 204, 204, 0.226), rgba(238, 190, 190, 0.5)), url("photo/666.jpg");
+ height: 453px;
+ background-size: cover;
+
+  }
+  
+  .columm{
+    float: left;
+    width: 50%;
+    height: 450px;
+    background-color: rgb(243, 113, 113);
+  }
+  
+  .columm1{
+    float: left;
+    width: 75%;
+    height: 240px;
+    background-color: rgb(218, 169, 169);
+  }
+  .columm2{
+    float: left;
+    width: 25%;
+    height: 240px;
+    background-color:  rgb(218, 169, 169);
+  }
+.row::after{
+  content:"" ;
+  display: table;
+  clear: both;
+
+}
+.aa-img{
+padding-top: 12%;
+padding-bottom: 5%;
+  width: 50%;
+
+
+
+}
+.jj-img{
+background-color: rgb(255, 255, 255);
+  width:40%;
+padding: 20px;
+border-radius: 10%;
+margin-left: 50px;
+}
+.jj-img1{
+  background-color: rgb(255, 255, 255);
+    width:40%;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 5px;
+  border-radius: 10%;
+  margin-left: 50px;
+  }
+
+.uu-img{
+
+  width: 25%;
+  border-radius: 50%;
+
+
+}
+
+.f-font{
+  font-size: 25px;
+  font-family: 'Mali';
+
+}
+.f-font1{
+  font-size: 27px;
+  font-family: 'Mali';
+  margin-top:auto;
+  margin-bottom: auto;
+  line-height: 150px;
+  padding-left: 10%;
+  background-color: rgba(229, 194, 196, 0.959);
+  border-radius: 50px;
+  margin-left: 50px;
+}
+h1{
+  font-size: 35px;
+  text-align: center;
+  font-family: 'Chilanka';
+  color: rgb(59, 27, 27);
+}
+* {
+  box-sizing: border-box;
+}
+
+img {
+  vertical-align: middle;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container1 {
+  position: relative;
+  background-image:linear-gradient(rgba(236, 204, 204, 0.226), rgba(238, 190, 190, 0.5)), url("photo/666.jpg");
+  background-size: cover ;
+    background-repeat: no-repeat;
+    
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: rgb(188, 214, 241);
+  padding: 2px 16px;
+  color: white;
+  font-family: 'Itim';
+  font-size: 20px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+footer{
+  padding: 20px;
+  background-color:  rgb(224, 153, 153);
+}
+.aboutdog{
+  width: 100%;
+  background-color: bisque;
+  margin: auto;
+  
+}
+.abbox{
+  width: 80%;
+  background-color: rgb(255, 255, 255);
+  margin: auto;
+  box-shadow: 0 8px 14px  0 rgb(233, 212, 224);
+
+  
+}
+.boxbox{
+  background-color: silver;
+  width: auto;
+}
+.porth{
+  border-radius: 20px; 
+  background-color: rgb(214, 152, 223); 
+  width: 50%;
+  margin: auto
+  ;
+}
+.ab-icon{
+
+  text-align: center;
+font-family: 'Itim';
+  color: rgb(0, 0, 0);
+  
+}
+.ab-icon a:visited {
+  color: rgb(10, 10, 10);
+  background-color: transparent;
+
+}
+.ab-icon a:hover {
+  opacity: 0.7;
+  color: goldenrod;
+  
+}
+.boxfoot{
+  width: 50%;
+  background-color: rgb(250, 235, 215,0.5);
+  background-image: linear-gradient(rgba(236, 204, 204, 0.226), rgba(238, 190, 190, 0.5)),url("photo/656.jpg");
+  background-size: cover;
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
